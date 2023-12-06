@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*  section 1 start */
+
+.nav-item .nav-link{
+    font-size: 1em;
+    color: black;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.nav-item .nav-link:hover{
+    color: white;
+    background: rgb(186, 11, 11);
+}
+
+form button{
+    width: 100px;
+    padding: 4px;
+    border: 1px solid  rgb(186, 11, 11);
+    background: transparent;
+    border-radius: 5px;
+}
+
+form button:hover{
+    background: rgb(186, 11, 11);
+    color: white;
+    transition: 0.5s;
+}
+
+/*  section 1 end */
+
+
+
+/*  section 2 start */
+
+.home .f{
+    color:  rgb(186, 11, 11);
+}
+
+.home span{
+    color: black;
+}
+
+.home p{
+    font-size: 20px;
+}
+
+.home button {
+    /* color: white; */
+    background-color: rgb(186, 11, 11);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.home button:hover{
+    color: white;
+    transition: 0.5s ease;
+}
+/*  section 2 end */
+
+/* section 3 start */
+
+.services .three-lines h3{
+    color: rgb(186, 11, 11);
+}
+
+.services .card img{
+    width: 200px;
+    margin-left: 80px;
+}
+
+.services .card {
+    border: none;
+}
+
+.services .card .card-body{
+    text-align: center;
+}
+
+.services .card .card-text{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+/* section 3 end */
+
+
+/* section 4 start */
+.menu h3{
+    color: rgb(186, 11, 11);
+}
+
+.menu span{
+    color: rgb(186, 11, 11);
+}
+
+.menu .card img{
+    position: relative;
+    left: 70px;
+    top: 10px;
+
+}
+
+.menu .card-body h3{
+    color: rgb(186, 11, 11);
+
+}
+
+.menu .card-body{
+    text-align: center;
+}
+
+
+.menu .stars{
+    color: orange;
+    margin-left: 20px;
+}
+
+
+.menu h5{
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.menu h5 span{
+    color: rgb(186, 11, 11);
+    margin-left: 60%;
+}
+
+
+/* section 4 end */
+/* section 5 start */
+
+.oyf h3{
+    text-align: center;
+    color: rgb(186, 11, 11);
+}
+.oyf button{
+    color: black;
+    background-color: rgb(186, 11, 11);
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.oyf button:hover{
+    color: white;
+}
+
+/* section 5 end */
+
+
+/* section 6 start */
+
+.review h2{
+    color: rgb(186, 11, 11);
+    text-align: center;
+}
+
+.review .stars{
+    color:orange;
+}
+
+
+/* section 6 end */
+
+
+
+/* section 7 start */
+
+.contact-us h2{
+    color: rgb(186, 11, 11);
+    text-align: center;
+}
+
+
+.contact-us .card-body{
+    background: rgb(186, 11, 11);
+    color: white;
+    border-radius: 10px;
+}
+
+.contact-us button{
+    color: black;
+    background: rgb(186, 11, 11);
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.contact-us button:hover{
+    color: white;
+}
+
+
+/* section 7 end */
+
+
+/* section 8 start */
+
+.footer .social-icons i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.footer .social-icons i:hover{
+    color: rgb(186, 11, 11);
+}
+
+
+
+/* section 8 end */
